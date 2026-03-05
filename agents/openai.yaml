@@ -1,0 +1,5 @@
+interface:
+  display_name: "Go Performance (goperf)"
+  short_description: "Performant Go patterns from goperf.dev"
+  brand_color: "#00ADD8"
+  default_prompt: "Use $goperf-skill to apply performance recommendations and best practices for Go."
