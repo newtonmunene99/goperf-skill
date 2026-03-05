@@ -2,6 +2,13 @@
 
 Condensed reference for memory, concurrency, I/O, and compiler optimizations. Based on the [Go Optimization Guide](https://goperf.dev).
 
+## Table of contents
+
+- [Memory Management & Efficiency](#memory-management--efficiency) — pooling, prealloc, alignment, interface boxing, zero-copy, GC, stack vs heap
+- [Concurrency and Synchronization](#concurrency-and-synchronization) — worker pools, atomics, lazy init, immutable data, context
+- [I/O Optimization and Throughput](#io-optimization-and-throughput) — buffered I/O, batching
+- [Compiler-Level Optimization and Tuning](#compiler-level-optimization-and-tuning) — compiler flags, escape analysis
+
 ---
 
 ## Memory Management & Efficiency

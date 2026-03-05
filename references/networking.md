@@ -2,6 +2,15 @@
 
 Condensed reference for high-performance networking in Go. Based on the [Go Optimization Guide](https://goperf.dev).
 
+## Table of contents
+
+- [Benchmarking First](#benchmarking-first) — establish baselines before optimizing
+- [Foundations and Core Concepts](#foundations-and-core-concepts) — connection reuse, Transport tuning, pooling, observability
+- [Scaling and Performance Engineering](#scaling-and-performance-engineering) — 10k+ connections, GOMAXPROCS
+- [Diagnostics and Resilience](#diagnostics-and-resilience) — load shedding, long-lived connections, buffer leaks
+- [Transport-Level Optimization](#transport-level-optimization) — TCP/HTTP/2/gRPC, QUIC
+- [Low-Level and Advanced Tuning](#low-level-and-advanced-tuning) — socket options, DNS, TLS, fresh DNS
+
 ---
 
 ## Benchmarking First

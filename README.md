@@ -53,6 +53,10 @@ Supported agents include **Cursor**, **Codex**, **Claude Code**, **OpenCode**, *
 - **references/common-patterns.md** — Memory, concurrency, I/O, compiler patterns
 - **references/networking.md** — HTTP, Transport, scaling, resilience, TLS/DNS, protocols
 
+## Evals
+
+Test cases and the benchmark workflow (run evals, grade, aggregate, view results) are in **[evals/](evals/)**. See [evals/README.md](evals/README.md) for how to prepare the workspace, run evals with the skill-creator runner/grader/viewer, and open the review UI.
+
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
